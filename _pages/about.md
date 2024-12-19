@@ -65,7 +65,7 @@ Featured Publications
     <h3 style="margin: 0;"><a href="https://arxiv.org/abs/2407.20542" style="text-decoration: none;">HandDAGT: A Denoising Adaptive Graph Transformer for 3D Hand Pose Estimation</a></h3>
     <p style="margin: 5px 0;">
       <strong>Wencan Cheng</strong>,
-      <a href="">Eunji Kim</a>,
+      <a href="https://iris.skku.edu/authors/mp05_eunji_kim/">Eunji Kim</a>,
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
       <strong>ECCV</strong>, 2024
@@ -82,6 +82,8 @@ Featured Publications
     <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf" style="text-decoration: none;">HandDiff: 3D Hand Pose Estimation with Diffusion on Image-Point Cloud</a></h3>
     <p style="margin: 5px 0;">
       <strong>Wencan Cheng</strong>,
+      <a href="https://ha0tang.github.io">Hao Tang</a>,
+      <a href="https://www.trace.ethz.ch/team/members/luc.html">Luc Van Gool</a>
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
       <strong>CVPR <span style="color: red;">highlight</span></strong>, 2024
