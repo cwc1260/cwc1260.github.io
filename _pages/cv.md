@@ -19,11 +19,11 @@ Education
 Work experience
 ======
 
-2024 - 		  :  	Postdoc, National University of Singapore, Singapore
-2020 - 2024 : 	Graduate Research Assistant, Sungkyunkwan University, Korea
-2018 - 2020	:		Graduate Research Assistant, Sungkyunkwan University, Korea
-2017 - 2017	:		Product Technical Manager (IoT), Beijing Tongyudao technology Co., Ltd, China
-2016 - 2017	:		Embedded Engineer (AR), Nanjing Moyuhood Intelligent Technology Co., Ltd, China
+* 2024 - 		  :  	Postdoc, National University of Singapore, Singapore
+* 2020 - 2024 : 	Graduate Research Assistant, Sungkyunkwan University, Korea
+* 2018 - 2020	:		Graduate Research Assistant, Sungkyunkwan University, Korea
+* 2017 - 2017	:		Product Technical Manager (IoT), Beijing Tongyudao technology Co., Ltd, China
+* 2016 - 2017	:		Embedded Engineer (AR), Nanjing Moyuhood Intelligent Technology Co., Ltd, China
 
 
 Service and leadership
