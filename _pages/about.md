@@ -55,8 +55,10 @@ News
   });
 </script>
 
-Featured Publications
+
+Featured Works
 ======
+
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <img src="images/HandDGAT.png" alt="HandDAGT: A Denoising Adaptive Graph Transformer for 3D Hand Pose Estimation" style="width: 350px; height: auto; margin-right: 20px;">
