@@ -167,7 +167,7 @@ Featured Publications
       <br>
       ICCE-Asia, 2021
       <br>
-      <a href=="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">[PDF]</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">[PDF]</a>
     </p>
   </div>
 </div>
@@ -198,9 +198,9 @@ Featured Publications
       <a href="https://ieeexplore.ieee.org/author/37293425600">Sukhan Lee </a>,
       <strong>Wencan Cheng</strong>
       <br>
-      <span style="color: red;">IMCOM, 2020</span>
+      IMCOM, 2020
       <br>
-      <a href=="https://ieeexplore.ieee.org/abstract/document/9001703" style="text-decoration: none;">[PDF]</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9001703" style="text-decoration: none;">[PDF]</a>
     </p>
   </div>
 </div>
@@ -216,7 +216,7 @@ Featured Publications
       <br>
       IMCOM, 2020
       <br>
-      <a href=="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="text-decoration: none;">[PDF]</a>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="text-decoration: none;">[PDF]</a>
     </p>
   </div>
 </div>
