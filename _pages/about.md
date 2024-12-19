@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 I am currently a postdoctoral research fellow in the Computer Vision and Robotic Perception (CVRP) laboratory at <strong>National University of Singapore (NUS)</strong>, supervised by [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/).  My research interests lie in 3D computer vision, especially in human hand pose estimation, understanding and generation.
-I recived my Ph.D. degree in Artificial Intelligence from [Sungkyunkwan University] in 2024, advised by [Prof. Jong Hwan Ko](https://iris.skku.edu/professor/), and my M.S. degree in Artificial Intelligence from [Sungkyunkwan University] in 2020, advised by [Prof. Suk Han Lee](https://ieeexplore.ieee.org/author/37293425600).
+I recived my Ph.D. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2024, advised by [Prof. Jong Hwan Ko](https://iris.skku.edu/professor/), and my M.S. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2020, advised by [Prof. Suk Han Lee](https://ieeexplore.ieee.org/author/37293425600).
 
 
 News
@@ -35,7 +35,6 @@ News
   <p>✌️[02.2024] One paper <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf">HandDiff</a> is accepted at CVPR 2023 (highlight)!!</p>
   <p> 🎓[02.2024] I recieved my Ph.D. degree from Sungkyunkwan University.</p>
     <!-- 你可以在这里添加更多隐藏的新闻项 -->
-  </div>
 </div>
 
 <a href="#" class="show-more-link" id="show-more-link">⬇ SHOW MORE ⬇</a>
