@@ -31,13 +31,14 @@ News
 
 <div class="news-container">
   <p>✌️[07.2024] One paper <a href="https://arxiv.org/abs/2407.20542">HandDAGT</a> is accepted at ECCV 2024!</p>
-  <p>🎉[03.2024] Joined CVRP lab of NUS as a postdoctoral research fellow supervised by Gim Hee Lee!
+  <p>🎉[03.2024] Joined CVRP lab of NUS as a postdoctoral research fellow supervised by Gim Hee Lee!</p>
   <p>✌️[02.2024] One paper <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf">HandDiff</a> is accepted at CVPR 2023 (<span style="color: red;">highlight</span>)!!</p>
   <p> 🎓[02.2024] Recieved my Ph.D. degree from Sungkyunkwan University.</p>
   <div id="hidden-news" style="display: none;">
-    <p>✌️[07.2024] Two papers <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf">HandR2N2</a>  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf">MSBRN</a>  are accepted at ICCV 2023!</p>
+    <p>✌️[07.2024] Two papers <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf">HandR2N2</a>  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf">MSBRN</a> are accepted at ICCV 2023!</p>
     <!-- 你可以在这里添加更多隐藏的新闻项 -->
   </div>
+</div>
 
 <a href="#" class="show-more-link" id="show-more-link">⬇ SHOW MORE ⬇</a>
 
@@ -56,10 +57,8 @@ News
 </script>
 
 
-Featured Works
+Featured Publications
 ======
-
-
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <img src="images/HandDGAT.png" alt="HandDAGT: A Denoising Adaptive Graph Transformer for 3D Hand Pose Estimation" style="width: 350px; height: auto; margin-right: 20px;">
   <div>
