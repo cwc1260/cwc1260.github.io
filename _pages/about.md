@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 I am currently a postdoctoral research fellow in the Computer Vision and Robotic Perception (CVRP) laboratory at <strong>National University of Singapore (NUS)</strong>, supervised by [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/).  My research interests lie in 3D computer vision, especially in human hand pose estimation, motion detection and embodied AI.
-I recived my Ph.D. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2024, advised by [Prof. Jong Hwan Ko](https://iris.skku.edu/professor/), and my M.S. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2020, advised by [Prof. Suk Han Lee](https://ieeexplore.ieee.org/author/37293425600).
+I recived my Ph.D. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2024, advised by [Prof. Jong Hwan Ko](https://iris.skku.edu/professor/), and my M.S. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2020, advised by [Prof. Sukhan Lee](https://ieeexplore.ieee.org/author/37293425600).
 
 
 News
