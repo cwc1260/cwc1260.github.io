@@ -1,49 +1,228 @@
 ---
+layout: archive
+title: ""
+# permalink: /about/
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+  # - /
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am currently a postdoctoral research fellow in the Computer Vision and Robotic Perception (CVRP) laboratory at <strong>National University of Singapore (NUS)</strong>, supervised by [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/).  My research interests lie in 3D computer vision, especially in human hand pose estimation, understanding and generation.
+I recived my Ph.D. degree in Artificial Intelligence from [Sungkyunkwan University] in 2024, advised by [Prof. Jong Hwan Ko](https://iris.skku.edu/professor/), and my M.S. degree in Artificial Intelligence from [Sungkyunkwan University] in 2020, advised by [Prof. Suk Han Lee](https://ieeexplore.ieee.org/author/37293425600).
 
-A data-driven personal website
+
+News
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<style>
+  .news-container p {
+    margin: 5px 0; /* 调整段落间距 */
+    line-height: 1.2; /* 调整行高 */
+  }
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+  .show-more-link {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+</style>
 
-Getting started
+<div class="news-container">
+  <p>✌️[07.2024] One paper <a href="https://arxiv.org/pdf/2310.15712.pdf">HandDAGT</a> is accepted at ECCV 2024!></p>
+  <p>🎉[03.2024] I join CVRP lab of NUS as a postdoctoral research fellow supervised by Gim Hee Lee.
+  <p>✌️[02.2024] One paper <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf">HandDiff</a> is accepted at CVPR 2023 (highlight)!!</p>
+  <p> 🎓[02.2024] I recieved my Ph.D. degree from Sungkyunkwan University.</p>
+    <!-- 你可以在这里添加更多隐藏的新闻项 -->
+  </div>
+</div>
+
+<a href="#" class="show-more-link" id="show-more-link">⬇ SHOW MORE ⬇</a>
+
+<script>
+  document.getElementById('show-more-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    var hiddenNews = document.getElementById('hidden-news');
+    if (hiddenNews.style.display === 'none') {
+      hiddenNews.style.display = 'block';
+      this.textContent = '⬆ SHOW LESS ⬆';
+    } else {
+      hiddenNews.style.display = 'none';
+      this.textContent = '⬇ SHOW MORE ⬇';
+    }
+  });
+</script>
+
+
+
+Featured Publications
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/HandDGAT.png" alt="HandDAGT: A Denoising Adaptive Graph Transformer for 3D Hand Pose Estimation" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://arxiv.org/pdf/2310.15712.pdf" style="text-decoration: none;">HandDAGT: A Denoising Adaptive Graph Transformer for 3D Hand Pose Estimation</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>,
+      <a href="">Eunji Kim</a>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">ECCV, 2024</span>
+      <br>
+      <a href="https://arxiv.org/pdf/2310.15712.pdf" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/cwc1260/HandDAGT" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
 
-**Markdown generator**
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/HandDiff.png" alt="HandDiff: 3D Hand Pose Estimation with Diffusion on Image-Point Cloud" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf" style="text-decoration: none;">HandDiff: 3D Hand Pose Estimation with Diffusion on Image-Point Cloud</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">CVPR highlight, 2024</span>
+      <br>
+      <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/cwc1260/HandDiff" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/MSBRN.png" alt="Multi-Scale Bidirectional Recurrent Network with Hybrid Correlation for Point Cloud Based Scene Flow Estimation" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf" style="text-decoration: none;">Multi-Scale Bidirectional Recurrent Network with Hybrid Correlation for Point Cloud Based Scene Flow Estimation</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">ICCV, 2023</span>
+      <br>
+      <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/cwc1260/MSBRN" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/HandR2N2.png" alt="HandR2N2: Iterative 3D Hand Pose Estimation Using a Residual Recurrent Neural Network" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_HandR2N2_Iterative_3D_Hand_Pose_Estimation_Using_a_Residual_Recurrent_ICCV_2023_paper.pdf" style="text-decoration: none;">HandR2N2: Iterative 3D Hand Pose Estimation Using a Residual Recurrent Neural Network</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">ICCV, 2023</span>
+      <br>
+      <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_HandR2N2_Iterative_3D_Hand_Pose_Estimation_Using_a_Residual_Recurrent_ICCV_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/cwc1260/HandR2N2" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/dynamic.png" alt="Dynamic Inference Acceleration of 3D Point Cloud Deep Neural Networks Using Point Density and Entropy" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Park_Dynamic_Inference_Acceleration_of_3D_Point_Cloud_Deep_Neural_Networks_CVPRW_2023_paper.pdf" style="text-decoration: none;">Dynamic Inference Acceleration of 3D Point Cloud Deep Neural Networks Using Point Density and Entropy</a></h3>
+    <p style="margin: 5px 0;">
+      Gyudo Park, SooHyeok Kang, <strong>Wencan Cheng</strong>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">CVPRW, 2023</span>
+      <br>
+      <a href="https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Park_Dynamic_Inference_Acceleration_of_3D_Point_Cloud_Deep_Neural_Networks_CVPRW_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
+    </p>
+  </div>
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/BiFlow.png" alt="Bi-PointFlowNet: Bidirectional Learning for Point Cloud Based Scene Flow Estimation" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://arxiv.org/abs/2207.07522" style="text-decoration: none;">Bi-PointFlowNet: Bidirectional Learning for Point Cloud Based Scene Flow Estimation</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">ECCV oral, 2022</span>
+      <br>
+      <a href="https://arxiv.org/abs/2207.07522" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/cwc1260/BiFlow" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
+
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/HandQuant.png" alt="Element-wise Partial Product Quantization for Efficient Deep Learning Accelerators" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">Element-wise Partial Product Quantization for Efficient Deep Learning Accelerators</a></h3>
+    <p style="margin: 5px 0;">
+      Kim, Si Yeon,<strong>Wencan Cheng</strong>,
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      ICCE-Asia, 2021
+      <br>
+      <a href=="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">[PDF]</a>
+    </p>
+  </div>
+</div>
+
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/HandFold.png" alt="HandFoldingNet: A 3D Hand Pose Estimation Network Using Multiscale-Feature Guided Folding of a 2D Hand Skeleton" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Cheng_HandFoldingNet_A_3D_Hand_Pose_Estimation_Network_Using_Multiscale-Feature_Guided_ICCV_2021_paper.pdf" style="text-decoration: none;">HandFoldingNet: A 3D Hand Pose Estimation Network Using Multiscale-Feature Guided Folding of a 2D Hand Skeleton</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>, Jae Hyun Park, 
+      <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
+      <br>
+      <span style="color: red;">ICCV, 2021</span>
+      <br>
+      <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Cheng_HandFoldingNet_A_3D_Hand_Pose_Estimation_Network_Using_Multiscale-Feature_Guided_ICCV_2021_paper.pdf" style="text-decoration: none;">[PDF]</a>
+      <a href="https://github.com/cwc1260/HandFold" style="text-decoration: none;">[Code]</a>
+    </p>
+  </div>
+</div>
+
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/progressive.png" alt="https://ieeexplore.ieee.org/abstract/document/9001703" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">Progressive Framework of Learning 3D Object Classes and Orientations from Deep Point Cloud Representation</a></h3>
+    <p style="margin: 5px 0;">
+      <a href="https://ieeexplore.ieee.org/author/37293425600">Sukhan Lee </a>,
+      <strong>Wencan Cheng</strong>
+      <br>
+      <span style="color: red;">IMCOM, 2020</span>
+      <br>
+      <a href=="https://ieeexplore.ieee.org/abstract/document/9001703" style="text-decoration: none;">[PDF]</a>
+    </p>
+  </div>
+</div>
+
+
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/BIL.png" alt="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="width: 350px; height: auto; margin-right: 20px;">
+  <div>
+    <h3 style="margin: 0;"><a href="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">Point auto-encoder and its application to 2D-3D transformation.</a></h3>
+    <p style="margin: 5px 0;">
+      <strong>Wencan Cheng</strong>,
+      <a href="https://ieeexplore.ieee.org/author/37293425600">Sukhan Lee </a>
+      <br>
+      IMCOM, 2020
+      <br>
+      <a href=="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="text-decoration: none;">[PDF]</a>
+    </p>
+  </div>
+</div>
+
+
+<div style="width: 100px; height: 100px; display: block; align-items: center; margin-top: 40px; margin-bottom: 40px;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=76q_kvp9C9IdUxxL6culGaZYcQGVaYsIH-LMQGUf1uU =10x10"></script>
+</div>
