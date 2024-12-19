@@ -11,10 +11,10 @@ locale                   : "en-US"
 title                    : "Wencan Cheng"
 title_separator          : "-"
 name                     : &name "Wencan Cheng"
-description              : Postdoctoral Reseach Fellow at National University of Singapore
+description              : &description "Welcome to Wencan Cheng's personal page!"
 url                      : https://cwc1260.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "cwc1260/cwc1260.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,9 +24,9 @@ author:
   avatar           : "avatar.png"
   name             : "Wencan Cheng"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "Postdoctoral Reseach Fellow at National University of Singapore"
   location         : "Singapore"
-  employer         : "National University of Singapore"
+  employer         : #"National University of Singapore"
   uri              : # URL
   email            : "wccheng@nus.edu.sg" 
 
