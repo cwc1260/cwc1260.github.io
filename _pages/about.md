@@ -10,7 +10,7 @@ redirect_from:
   # - /
 ---
 
-I am currently a postdoctoral research fellow in the Computer Vision and Robotic Perception (CVRP) laboratory at <strong>National University of Singapore (NUS)</strong>, supervised by [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/).  My research interests lie in 3D computer vision, especially in human hand pose estimation, understanding and generation.
+I am currently a postdoctoral research fellow in the Computer Vision and Robotic Perception (CVRP) laboratory at <strong>National University of Singapore (NUS)</strong>, supervised by [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/).  My research interests lie in 3D computer vision, especially in human hand pose estimation, motion detection and embodied AI.
 I recived my Ph.D. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2024, advised by [Prof. Jong Hwan Ko](https://iris.skku.edu/professor/), and my M.S. degree in Artificial Intelligence from <strong>Sungkyunkwan University (SKKU)</strong> in 2020, advised by [Prof. Suk Han Lee](https://ieeexplore.ieee.org/author/37293425600).
 
 
@@ -56,11 +56,8 @@ News
   });
 </script>
 
-
-
 Featured Publications
 ======
-
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <img src="images/HandDGAT.png" alt="HandDAGT: A Denoising Adaptive Graph Transformer for 3D Hand Pose Estimation" style="width: 350px; height: auto; margin-right: 20px;">
@@ -87,7 +84,7 @@ Featured Publications
       <strong>Wencan Cheng</strong>,
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
-      <strong>CVPR</strong> <span style="color: red;">highlight</span>, 2024
+      <strong>CVPR <span style="color: red;">highlight</span></strong>, 2024
       <br>
       <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf" style="text-decoration: none;">[PDF]</a>
       <a href="https://github.com/cwc1260/HandDiff" style="text-decoration: none;">[Code]</a>
@@ -103,7 +100,7 @@ Featured Publications
       <strong>Wencan Cheng</strong>,
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
-      <span style="color: red;">ICCV, 2023</span>
+      <strong>ICCV</strong>, 2023
       <br>
       <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
       <a href="https://github.com/cwc1260/MSBRN" style="text-decoration: none;">[Code]</a>
@@ -119,7 +116,7 @@ Featured Publications
       <strong>Wencan Cheng</strong>,
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
-      <span style="color: red;">ICCV, 2023</span>
+      <strong>ICCV</strong>, 2023
       <br>
       <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_HandR2N2_Iterative_3D_Hand_Pose_Estimation_Using_a_Residual_Recurrent_ICCV_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
       <a href="https://github.com/cwc1260/HandR2N2" style="text-decoration: none;">[Code]</a>
@@ -135,7 +132,7 @@ Featured Publications
       Gyudo Park, SooHyeok Kang, <strong>Wencan Cheng</strong>,
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
-      <span style="color: red;">CVPRW, 2023</span>
+      CVPRW, 2023
       <br>
       <a href="https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Park_Dynamic_Inference_Acceleration_of_3D_Point_Cloud_Deep_Neural_Networks_CVPRW_2023_paper.pdf" style="text-decoration: none;">[PDF]</a>
     </p>
@@ -151,7 +148,7 @@ Featured Publications
       <strong>Wencan Cheng</strong>,
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
-      <span style="color: red;">ECCV oral, 2022</span>
+      <strong>ECCV <span style="color: red;">oral</span></strong>, 2022
       <br>
       <a href="https://arxiv.org/abs/2207.07522" style="text-decoration: none;">[PDF]</a>
       <a href="https://github.com/cwc1260/BiFlow" style="text-decoration: none;">[Code]</a>
@@ -184,7 +181,7 @@ Featured Publications
       <strong>Wencan Cheng</strong>, Jae Hyun Park, 
       <a href="https://iris.skku.edu/professor/">Jong Hwan Ko</a>
       <br>
-      <span style="color: red;">ICCV, 2021</span>
+      <strong>ICCV</strong>, 2021
       <br>
       <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Cheng_HandFoldingNet_A_3D_Hand_Pose_Estimation_Network_Using_Multiscale-Feature_Guided_ICCV_2021_paper.pdf" style="text-decoration: none;">[PDF]</a>
       <a href="https://github.com/cwc1260/HandFold" style="text-decoration: none;">[Code]</a>
