@@ -191,22 +191,6 @@ Featured Publications
 
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/progressive.png" alt="https://ieeexplore.ieee.org/abstract/document/9001703" style="width: 350px; height: auto; margin-right: 20px;">
-  <div>
-    <h3 style="margin: 0;"><a href="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">Progressive Framework of Learning 3D Object Classes and Orientations from Deep Point Cloud Representation</a></h3>
-    <p style="margin: 5px 0;">
-      <a href="https://ieeexplore.ieee.org/author/37293425600">Sukhan Lee </a>,
-      <strong>Wencan Cheng</strong>
-      <br>
-      IMCOM, 2020
-      <br>
-      <a href="https://ieeexplore.ieee.org/abstract/document/9001703" style="text-decoration: none;">[PDF]</a>
-    </p>
-  </div>
-</div>
-
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
   <img src="images/BIL.png" alt="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="width: 350px; height: auto; margin-right: 20px;">
   <div>
     <h3 style="margin: 0;"><a href="https://ieeexplore.ieee.org/abstract/document/9954834" style="text-decoration: none;">Point auto-encoder and its application to 2D-3D transformation.</a></h3>
@@ -214,7 +198,7 @@ Featured Publications
       <strong>Wencan Cheng</strong>,
       <a href="https://ieeexplore.ieee.org/author/37293425600">Sukhan Lee </a>
       <br>
-      IMCOM, 2020
+      ISVC, 2020
       <br>
       <a href="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="text-decoration: none;">[PDF]</a>
     </p>
