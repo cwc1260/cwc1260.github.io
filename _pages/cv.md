@@ -11,54 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Artificial Intelligence, Sungkyunkwan University, 2024
+* M.S. in Artificial Intelligence, Sungkyunkwan University, 2020
+* B.S. in Measurement and Control Technology and Instrument, Nanjing University of Information Science & Technology
+, 2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+2024 - 		  :  	Postdoc, National University of Singapore, Singapore
+2020 - 2024 : 	Graduate Research Assistant, Sungkyunkwan University, Korea
+2018 - 2020	:		Graduate Research Assistant, Sungkyunkwan University, Korea
+2017 - 2017	:		Product Technical Manager (IoT), Beijing Tongyudao technology Co., Ltd, China
+2016 - 2017	:		Embedded Engineer (AR), Nanjing Moyuhood Intelligent Technology Co., Ltd, China
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Conference reviewer: IROS，CVPR，ECCV, AAAI
+* Journal reviewer: T-PAMI, RAL
