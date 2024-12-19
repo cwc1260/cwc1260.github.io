@@ -38,7 +38,6 @@ News
     <p>✌️[07.2024] Two papers <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_HandDiff_3D_Hand_Pose_Estimation_with_Diffusion_on_Image-Point_Cloud_CVPR_2024_paper.pdf">HandR2N2</a>  <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Multi-Scale_Bidirectional_Recurrent_Network_with_Hybrid_Correlation_for_Point_Cloud_ICCV_2023_paper.pdf">MSBRN</a>  are accepted at ICCV 2023!</p>
     <!-- 你可以在这里添加更多隐藏的新闻项 -->
   </div>
-</div>
 
 <a href="#" class="show-more-link" id="show-more-link">⬇ SHOW MORE ⬇</a>
 
@@ -219,9 +218,4 @@ Featured Publications
       <a href=="https://link.springer.com/chapter/10.1007/978-3-030-33723-0_6" style="text-decoration: none;">[PDF]</a>
     </p>
   </div>
-</div>
-
-
-<div style="width: 100px; height: 100px; display: block; align-items: center; margin-top: 40px; margin-bottom: 40px;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=76q_kvp9C9IdUxxL6culGaZYcQGVaYsIH-LMQGUf1uU =10x10"></script>
 </div>
